@@ -89,7 +89,6 @@ body {
 	user-select: none;
 	cursor: pointer;
 	transition: 0.5s ease-in-out;
-	margin-block: 1rem;
 }
 
 .btn-primary,
