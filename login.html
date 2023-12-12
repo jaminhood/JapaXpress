@@ -9,7 +9,9 @@
   <body>
     <div class="cont">
       <nav class="navbar">
-        <a href="#"><img class="logo" src="./assets/imgs/logo.png" alt="logo" /></a>
+        <a href="#"
+          ><img class="logo" src="./assets/imgs/logo.png" alt="logo"
+        /></a>
         <div class="sign-up"><a href="#">Sign up</a></div>
       </nav>
       <h2>Login to your account to enjoy every of your travel adventure.</h2>
@@ -39,15 +41,24 @@
           </div>
           <h6>We never share anything without your permission</h6>
           <p>------------------- or ------------------</p>
-          <div class="details">
-            <input type="email" name="email" id="email" placeholder="Email" />
-            <input type="pwd" name="password" id="password" placeholder="Password" />
-            <div class="checkbox">
-              <input type="checkbox" name="box" id="box" />
-              <label for="checkbox">Remember my log in details</label>
+          <form action="/submit" method="post">
+            <div class="details">
+              <input type="email" name="email" id="email" placeholder="Email" />
+              <input
+                type="pwd"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+              <div class="checkbox">
+                <input type="checkbox" name="box" id="box" />
+                <label for="box">Remember my log in details</label>
+              </div>
+              <button class="login-btn" type="button">
+                <a href="#">Login</a>
+              </button>
             </div>
-            <button class="login-btn" type="submit"><a href="#">Login</a></button>
-          </div>
+          </form>
           <p class="misc">Forgot password? <a href="#">Click here</a></p>
           ............................................
           <p class="misc">Don't have an account? <a href="#">Sign up</a></p>
@@ -61,7 +72,9 @@
             />
           </div>
           <img class="logo2" src="./assets/imgs/logo.png" alt="logo" />
-          <button class="return-home"><a href="#">Return to Home Page</a></button>
+          <button class="return-home">
+            <a href="#">Return to Home Page</a>
+          </button>
         </div>
       </div>
     </div>
