@@ -28,14 +28,24 @@
 
 /* STYLES FOR LOGIN PAGE STARTS HERE */
 body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
 font-family: var(--ff-main);
 font-weight: var(--fw-body);
 }
 
 .cont{
-	padding: 1.2rem;
-	display:flex;
+	margin: 20px auto;
+	max-width: 1140px;
+	width: 100%;
+	padding: 1.4rem 5rem;
+	display: flex;
 	flex-direction: column;
+	ustify-content: center;
+	gap: 30px;
+
 }
 
 .logo{
@@ -47,12 +57,14 @@ font-weight: var(--fw-body);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 400px;
-	padding: 2rem;
+	width: 600px;
+	height: 300px;
+	padding: 5rem;
+	border-radius: 5px;
 }
 
 .misc-image{
-	width: 100px;
+	width: 150px;
 }
 
 .navbar{
@@ -73,8 +85,8 @@ justify-content: space-between;
 
 .login-section{
 	display: flex;
-	justify-tracks: center;
-	gap: 2rem;
+	justify-content: space-between;
+	gap: 5rem;
 }
 
 .login-page{
@@ -83,13 +95,15 @@ justify-content: space-between;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
+	padding: 20px;
 	gap: 20px;
 }
 
 .right-section{
 	display: flex;
 	flex-direction: column;
-	gap: 5rem;
+	gap: 4rem;
 }
 
 .sm{
@@ -110,6 +124,7 @@ justify-content: space-between;
 	gap: .4rem;
 	font-weight: var(--fw-heading);
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 .google{
@@ -124,7 +139,89 @@ justify-content: space-between;
 	font-weight: var(--fw-heading);
 	border: 1px solid #426ae4;
 	border-radius: 5px;
+	cursor: pointer;
 }
+
+.details{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+}
+
+input{
+	width: 300px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #1d1b1b;
+	color: #828282;
+	font-size: .7rem;
+}
+
+.checkbox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: .8rem;
+	gap: 5px;
+
+}
+
+input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	border: 2px solid #000;
+}
+
+.login-btn{
+	padding: 5px 3px;
+	width: 6.2rem;
+	height: 1.8rem;
+	align-self: center;
+	background-color: #426ae4;
+	color: #ffffff;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: .8rem;
+	font-weight: var(--fw-heading);
+}
+
+.misc{
+	font-size: .8rem;
+}
+
+a{
+text-decoration: none;
+color: #ffffff;
+}
+
+h6, h4{
+	color: #1d1b1b;
+}
+
+/* THIS ACTIVE STATE STYLES AFFECTS THE PAGE WHEN ANY PART OF THE PAGE IS CLICKED */
+/* a:hover, :focus, :active{
+	color: #e0e0e0;
+} */
+
+.return-home{
+	background-color: #426ae4;
+	color: #ffffff;
+	border: none;
+	width: 11rem;
+	align-self: center;
+	padding: 4px 0;
+	border-radius: 3px;
+	cursor: pointer;
+	font-weight: var(--fw-heading);
+}
+
+.logo2{
+	width: 250px;
+	align-self: center;
+}
+
 
 
 
