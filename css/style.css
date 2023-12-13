@@ -193,12 +193,13 @@ input[type="checkbox"] {
 
 a{
 text-decoration: none;
-color: #ffffff;
+color: #426ae4;
 }
 
 h6, h4{
 	color: #1d1b1b;
 }
+
 
 /* THIS ACTIVE STATE STYLES AFFECTS THE PAGE WHEN ANY PART OF THE PAGE IS CLICKED */
 /* a:hover, :focus, :active{
