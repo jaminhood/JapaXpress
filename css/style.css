@@ -176,6 +176,7 @@ input[type="checkbox"] {
 /* header */
 .header {
 	padding-block: 2rem;
+	background: var(--clr-grey-bg);
 }
 
 .header .container {
@@ -229,4 +230,40 @@ input[type="checkbox"] {
 
 .login-image {
 	height: 150px;
+}
+
+/* banner */
+.banner {
+	background: url(../assets/imgs/hero-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 150px;
+	padding: 2rem 1rem;
+}
+
+.banner-breadcrumb {
+	position: relative;
+	color: var(--clr-grey-bg);
+	font-size: 1.3rem;
+	font-weight: var(--fw-heading);
+}
+
+.banner-breadcrumb-item {
+	position: relative;
+	padding-right: 2rem;
+}
+
+.banner-breadcrumb-item:not(:last-of-type)::before {
+	position: absolute;
+	content: "";
+	background: url(../assets/imgs/chevron-right.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	top: 50%;
+	right: 0;
+	height: 1rem;
+	width: 1rem;
+	transform: translateY(-50%);
 }
