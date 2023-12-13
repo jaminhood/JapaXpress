@@ -9,7 +9,7 @@
 
 	/* neutrals */
 	--clr-light: #ffffff;
-	--clr-dark: #0000;
+	--clr-dark: #000000;
 	--clr-grey-3: #828282;
 	--clr-grey-3: #828282;
 	--clr-grey-bg: #fafbfc;
@@ -62,6 +62,7 @@ body {
 	position: relative;
 	font-family: var(--ff-main);
 	font-weight: var(--fw-body);
+	color: var(--clr-grey-3);
 	line-height: 1.6;
 	min-height: 100dvh;
 	overflow-x: hidden;
@@ -108,6 +109,14 @@ input[type="checkbox"] {
 	justify-content: center;
 }
 
+.j-between {
+	justify-content: space-between;
+}
+
+.a-center {
+	align-items: center;
+}
+
 .w-50 {
 	width: 50%;
 }
@@ -118,6 +127,10 @@ input[type="checkbox"] {
 
 .right-logo {
 	height: 2rem;
+}
+
+.error {
+	color: #eb5757 !important;
 }
 
 .btn {
@@ -266,4 +279,105 @@ input[type="checkbox"] {
 	height: 1rem;
 	width: 1rem;
 	transform: translateY(-50%);
+}
+
+/* flight deals */
+.flight-deals {
+	background: var(--clr-grey-bg);
+	padding: 5rem 1rem;
+}
+
+.side-main {
+	display: grid;
+	grid-template-columns: 15rem 1fr;
+	gap: 1rem;
+}
+
+/* deal box */
+.deal-box {
+	width: 100%;
+	margin-block: 1rem 5rem;
+	color: var(--clr-grey-3);
+}
+
+.deal-box-top {
+	background: var(--clr-primary-light);
+	padding: 0.5rem;
+	width: 100%;
+}
+
+.deal-box-main {
+	padding: 0 3rem;
+	border-radius: 1rem;
+	margin-top: 0.5rem;
+	box-shadow: 0px 3px 7px 0px #0000001a, 1px 12px 13px 0px #00000017, 3px 28px 17px 0px #0000000d, 6px 50px 20px 0px #00000003, 9px 78px 22px 0px #00000000;
+}
+
+.deal-box-wrap {
+	padding-block: 2rem;
+}
+
+.deal-box-wrap h5 {
+	color: var(--clr-dark);
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+}
+
+.deal-box-wrap h5 span {
+	color: var(--clr-dark);
+	font-weight: var(--fw-body);
+	text-transform: capitalize;
+}
+
+.deal-box-wrap > .flex {
+	gap: 2rem;
+}
+
+.arrival {
+	border-top: 0.1rem solid var(--clr-grey-3);
+}
+
+.arrival .deal-box-img img {
+	transform: rotate(180deg);
+}
+
+.deal-box-img img {
+	height: 2rem;
+}
+
+.deal-box-duration img {
+	height: 1rem;
+}
+
+.deal-box-time {
+	text-align: center;
+}
+
+.deal-box-time h2 {
+	font-size: 2.5rem;
+	line-height: 1;
+}
+
+.deal-box-time h4 {
+	font-weight: var(--fw-body);
+}
+
+.deal-box-extra {
+	margin-left: auto;
+	width: 10rem;
+}
+
+.deal-box-extra p {
+	text-align: right;
+	font-weight: var(--fw-heading);
+	color: var(--clr-primary-light);
+}
+
+.deal-box-wrap-tickets,
+.deal-box-wrap-price {
+	color: var(--clr-primary-light);
+}
+
+.deal-box-wrap-price {
+	font-size: 2.5rem;
 }
