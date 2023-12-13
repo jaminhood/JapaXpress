@@ -1,16 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0" />
-		<title>JapaXpress - Login</title>
-		<link
-			rel="stylesheet"
-			href="./css/style.css" />
-	</head>
-	<body>
-		<script src="./js/app.js"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JapaXpress - Login</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="cont">
+      <nav class="navbar">
+        <a href="#"
+          ><img class="logo" src="./assets/imgs/logo.png" alt="logo"
+        /></a>
+        <div class="sign-up"><a href="#">Sign up</a></div>
+      </nav>
+      <h2>Login to your account to enjoy every of your travel adventure.</h2>
+
+      <!-- login starts here -->
+
+      <div class="login-section">
+        <div class="login-page">
+          <h4>Login with</h4>
+          <div class="sm">
+            <div class="facebook">
+              <img
+                class="social-media"
+                src="./assets/imgs/facebook.png"
+                alt="facebook logo"
+              />
+              <p>Facebook</p>
+            </div>
+            <div class="google">
+              <img
+                class="social-media"
+                src="./assets/imgs/google.png"
+                alt="google icon"
+              />
+              <p>Google</p>
+            </div>
+          </div>
+          <h6>We never share anything without your permission</h6>
+          <p>------------------- or ------------------</p>
+          <form action="/submit" method="post">
+            <div class="details">
+              <input type="email" name="email" id="email" placeholder="Email" />
+              <input
+                type="pwd"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+              <div class="checkbox">
+                <input type="checkbox" name="box" id="box" />
+                <label for="box">Remember my log in details</label>
+              </div>
+              <button class="login-btn" type="button">
+                <a href="#">Login</a>
+              </button>
+            </div>
+          </form>
+          <p class="misc">Forgot password? <a href="#">Click here</a></p>
+          ............................................
+          <p class="misc">Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+        <div class="right-section">
+          <div class="right-image">
+            <img
+              class="misc-image"
+              src="./assets/imgs/shield.png"
+              alt="image"
+            />
+          </div>
+          <img class="logo2" src="./assets/imgs/logo.png" alt="logo" />
+          <button class="return-home">
+            <a href="#">Return to Home Page</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
