@@ -11,7 +11,8 @@
 	--clr-light: #ffffff;
 	--clr-dark: #0000;
 	--clr-grey-3: #828282;
-	--clr-grey-5: #e0e0e0;
+	--clr-grey-3: #828282;
+	--clr-grey-bg: #fafbfc;
 
 	/* fonts */
 	--ff-main: "Montserrat", sans-serif;
