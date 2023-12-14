@@ -9,9 +9,10 @@
 
 	/* neutrals */
 	--clr-light: #ffffff;
-	--clr-dark: #0000;
+	--clr-dark: #000000;
 	--clr-grey-3: #828282;
-	--clr-grey-5: #e0e0e0;
+	--clr-grey-3: #828282;
+	--clr-grey-bg: #fafbfc;
 
 	/* fonts */
 	--ff-main: "Montserrat", sans-serif;
@@ -26,216 +27,6 @@
 	box-sizing: border-box;
 }
 
-/* STYLES FOR LOGIN PAGE STARTS HERE */
-body{
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-font-family: var(--ff-main);
-font-weight: var(--fw-body);
-}
-
-.cont{
-	margin: 20px auto;
-	max-width: 1140px;
-	width: 100%;
-	padding: 1.4rem 5rem;
-	display: flex;
-	flex-direction: column;
-	ustify-content: center;
-	gap: 30px;
-
-}
-
-.logo{
-	width: 250px;
-}
-
-.right-image{
-	background-color: #040457;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 600px;
-	height: 300px;
-	padding: 5rem;
-	border-radius: 5px;
-}
-
-.misc-image{
-	width: 150px;
-}
-
-.navbar{
-display: flex;
-justify-content: space-between;
-}
-
-.sign-up{
-	background-color: #426ae4;
-	color: #ffffff;
-	border: none;
-	border-radius: 10px;
-	font-size: .6rem;
-	padding: 10px 20px;
-	cursor: pointer;
-	font-weight: var(--fw-heading);
-}
-
-.login-section{
-	display: flex;
-	justify-content: space-between;
-	gap: 5rem;
-}
-
-.login-page{
-	background-color: #E0E0E0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	padding: 20px;
-	gap: 20px;
-}
-
-.right-section{
-	display: flex;
-	flex-direction: column;
-	gap: 4rem;
-}
-
-.sm{
-	display: flex;
-	gap: .6rem;
-}
-.social-media{
-	width: 1rem;
-}
-.facebook{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: .8rem;
-	background-color: #426ae4;
-	color: #ffffff;
-	padding: 5px 10px;
-	gap: .4rem;
-	font-weight: var(--fw-heading);
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-.google{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: .8rem;
-	background-color: #ffffff;
-	color: #426ae4;
-	padding: 5px 10px;
-	gap: .4rem;
-	font-weight: var(--fw-heading);
-	border: 1px solid #426ae4;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-.details{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	gap: 20px;
-}
-
-input{
-	width: 300px;
-	padding: 10px;
-	border-radius: 5px;
-	border: 1px solid #1d1b1b;
-	color: #828282;
-	font-size: .7rem;
-}
-
-.checkbox{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: .8rem;
-	gap: 5px;
-
-}
-
-input[type="checkbox"] {
-	width: 20px;
-	height: 20px;
-	border: 2px solid #000;
-}
-
-.login-btn{
-	padding: 5px 3px;
-	width: 6.2rem;
-	height: 1.8rem;
-	align-self: center;
-	background-color: #426ae4;
-	color: #ffffff;
-	border: none;
-	border-radius: 3px;
-	cursor: pointer;
-	font-size: .8rem;
-	font-weight: var(--fw-heading);
-}
-
-.misc{
-	font-size: .8rem;
-}
-
-a{
-text-decoration: none;
-color: #ffffff;
-}
-
-h6, h4{
-	color: #1d1b1b;
-}
-
-p[a]{
-	color: #426ae4;
-}
-
-/* javascript hidden page */
-.hidden{
-	display: none;
-}
-
-
-/* THIS ACTIVE STATE STYLES AFFECTS THE PAGE WHEN ANY PART OF THE PAGE IS CLICKED */
-/* a:hover, :focus, :active{
-	color: #e0e0e0;
-} */
-
-.return-home{
-	background-color: #426ae4;
-	color: #ffffff;
-	border: none;
-	width: 11rem;
-	align-self: center;
-	padding: 4px 0;
-	border-radius: 3px;
-	cursor: pointer;
-	font-weight: var(--fw-heading);
-}
-
-.logo2{
-	width: 250px;
-	align-self: center;
-}
-
-
-
-
-/* REASON FOR COMMENTING: THIS AFFECTED MY ANCHOR TAG COLOR 
 a,
 a:hover,
 a:active,
@@ -243,12 +34,18 @@ a:focus {
 	color: inherit;
 	text-decoration: none;
 	outline: none;
-} */
+}
 
 ul,
 ol,
 dl {
 	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: cover;
 }
 
 h1,
@@ -265,10 +62,30 @@ body {
 	position: relative;
 	font-family: var(--ff-main);
 	font-weight: var(--fw-body);
+	color: var(--clr-grey-3);
 	line-height: 1.6;
 	min-height: 100dvh;
 	overflow-x: hidden;
 	font-size: 1rem;
+}
+
+form {
+	width: 100%;
+}
+
+input {
+	width: 100%;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	border: 1px solid var(--clr-dark);
+	color: var(--clr-grey-3);
+	outline: none;
+}
+
+input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	border: 0.1rem solid var(--clr-dark);
 }
 
 /* globals */
@@ -284,15 +101,47 @@ body {
 	gap: 1rem;
 }
 
+.flex-col {
+	flex-direction: column;
+}
+
+.j-center {
+	justify-content: center;
+}
+
+.j-between {
+	justify-content: space-between;
+}
+
+.a-center {
+	align-items: center;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.text-sm {
+	font-size: 0.8rem;
+}
+
+.right-logo {
+	height: 2rem;
+}
+
+.error {
+	color: #eb5757 !important;
+}
+
 .btn {
-	padding: 10px 15px;
+	padding: 0.4rem 1rem;
 	border-radius: 4px;
 	border: none;
 	background: transparent;
 	display: inline-flex;
 	justify-content: center;
 	gap: 0.5rem;
-	border: 0.1rem solid transparent;
+	border: 0.2rem solid transparent;
 	align-items: center;
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -303,8 +152,8 @@ body {
 
 .btn-primary,
 .btn-static-primary {
-	background: var(--clr-primary-dark);
-	border-color: var(--clr-primary-dark);
+	background: var(--clr-primary-light);
+	border-color: var(--clr-primary-light);
 	color: var(--clr-light);
 	font-weight: var(--fw-heading);
 	font-size: 0.8rem;
@@ -312,27 +161,223 @@ body {
 
 .btn-primary:hover {
 	background: var(--clr-light);
-	color: var(--clr-primary-dark);
+	color: var(--clr-primary-light);
 }
 
 .btn-primary:hover {
 	background: var(--clr-light);
-	color: var(--clr-primary-dark);
+	color: var(--clr-primary-light);
 }
 
 .btn-outline-primary {
 	background: var(--clr-light);
-	border-color: var(--clr-primary-dark);
-	color: var(--clr-primary-dark);
+	border-color: var(--clr-primary-light);
+	color: var(--clr-primary-light);
 	font-weight: var(--fw-heading);
 	font-size: 0.8rem;
 }
 
 .btn-outline-primary:hover {
-	background: var(--clr-primary-dark);
+	background: var(--clr-primary-light);
 	color: var(--clr-light);
 }
 
 .btn-icon {
 	height: 1rem;
+}
+
+/* header */
+.header {
+	padding-block: 2rem;
+	background: var(--clr-grey-bg);
+}
+
+.header .container {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-logo {
+	height: 2rem;
+}
+
+/* login page */
+.login-container {
+	gap: 2rem;
+	padding-bottom: 2rem;
+}
+
+.login-section {
+	gap: 5rem;
+}
+
+.login-page {
+	background-color: var(--clr-grey-3);
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+	gap: 20px;
+	width: 30rem;
+}
+
+.form-content {
+	gap: 20px;
+}
+
+.checkbox {
+	align-items: center;
+}
+
+.right-section {
+	width: 100%;
+	gap: 3rem !important;
+}
+
+.right-image {
+	background-color: var(--clr-primary-dark);
+	align-items: center;
+	width: 100%;
+	height: 300px;
+	border-radius: 5px;
+}
+
+.login-image {
+	height: 150px;
+}
+
+/* banner */
+.banner {
+	background: url(../assets/imgs/hero-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 150px;
+	padding: 2rem 1rem;
+}
+
+.banner-breadcrumb {
+	position: relative;
+	color: var(--clr-grey-bg);
+	font-size: 1.3rem;
+	font-weight: var(--fw-heading);
+}
+
+.banner-breadcrumb-item {
+	position: relative;
+	padding-right: 2rem;
+}
+
+.banner-breadcrumb-item:not(:last-of-type)::before {
+	position: absolute;
+	content: "";
+	background: url(../assets/imgs/chevron-right.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	top: 50%;
+	right: 0;
+	height: 1rem;
+	width: 1rem;
+	transform: translateY(-50%);
+}
+
+/* flight deals */
+.flight-deals {
+	background: var(--clr-grey-bg);
+	padding: 5rem 1rem;
+}
+
+.side-main {
+	display: grid;
+	grid-template-columns: 15rem 1fr;
+	gap: 1rem;
+}
+
+/* deal box */
+.deal-box {
+	width: 100%;
+	margin-block: 1rem 5rem;
+	color: var(--clr-grey-3);
+}
+
+.deal-box-top {
+	background: var(--clr-primary-light);
+	padding: 0.5rem;
+	width: 100%;
+}
+
+.deal-box-main {
+	padding: 0 3rem;
+	border-radius: 1rem;
+	margin-top: 0.5rem;
+	box-shadow: 0px 3px 7px 0px #0000001a, 1px 12px 13px 0px #00000017, 3px 28px 17px 0px #0000000d, 6px 50px 20px 0px #00000003, 9px 78px 22px 0px #00000000;
+}
+
+.deal-box-wrap {
+	padding-block: 2rem;
+}
+
+.deal-box-wrap h5 {
+	color: var(--clr-dark);
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+}
+
+.deal-box-wrap h5 span {
+	color: var(--clr-dark);
+	font-weight: var(--fw-body);
+	text-transform: capitalize;
+}
+
+.deal-box-wrap > .flex {
+	gap: 2rem;
+}
+
+.arrival {
+	border-top: 0.1rem solid var(--clr-grey-3);
+}
+
+.arrival .deal-box-img img {
+	transform: rotate(180deg);
+}
+
+.deal-box-img img {
+	height: 2rem;
+}
+
+.deal-box-duration img {
+	height: 1rem;
+}
+
+.deal-box-time {
+	text-align: center;
+}
+
+.deal-box-time h2 {
+	font-size: 2.5rem;
+	line-height: 1;
+}
+
+.deal-box-time h4 {
+	font-weight: var(--fw-body);
+}
+
+.deal-box-extra {
+	margin-left: auto;
+	width: 10rem;
+}
+
+.deal-box-extra p {
+	text-align: right;
+	font-weight: var(--fw-heading);
+	color: var(--clr-primary-light);
+}
+
+.deal-box-wrap-tickets,
+.deal-box-wrap-price {
+	color: var(--clr-primary-light);
+}
+
+.deal-box-wrap-price {
+	font-size: 2.5rem;
 }

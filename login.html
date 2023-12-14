@@ -1,122 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JapaXpress - Login</title>
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <div class="cont">
-      <nav class="navbar">
-        <a href="#"
-          ><img class="logo" src="./assets/imgs/logo.png" alt="logo"
-        /></a>
-        <div class="sign-up"><a href="#">Sign up</a></div>
-      </nav>
-      <h2>Login to your account to enjoy every of your travel adventure.</h2>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>JapaXpress - Login</title>
+		<link
+			rel="stylesheet"
+			href="./css/style.css" />
+	</head>
+	<body>
+		<!-- header -->
+		<header class="header">
+			<div class="container flex">
+				<a
+					href="./"
+					class="header-logo">
+					<img
+						src="./assets/imgs/logo.png"
+						alt="" />
+				</a>
+				<div class="flex">
+					<a
+						href="./sign-up.html"
+						class="btn btn-primary">
+						Sign Up
+					</a>
+				</div>
+			</div>
+		</header>
+		<!-- / header -->
+		<!-- login container -->
+		<div class="container login-container flex flex-col">
+			<h2>Login to your account to enjoy every of your travel adventure.</h2>
+			<!-- login starts here -->
 
-      <!-- login starts here -->
 
-      <div class="login-section">
-        <div class="login-page">
-          <h4>Login with</h4>
-          <div class="sm">
-            <div class="facebook">
-              <img
-                class="social-media"
-                src="./assets/imgs/facebook.png"
-                alt="facebook logo"
-              />
-              <p>Facebook</p>
-            </div>
-            <div class="google">
-              <img
-                class="social-media"
-                src="./assets/imgs/google.png"
-                alt="google icon"
-              />
-              <p>Google</p>
-            </div>
-          </div>
-          <h6>We never share anything without your permission</h6>
-          <p>------------------- or ------------------</p>
-          <form action="/submit" method="post">
-            <div class="details">
-              <input type="email" name="email" id="email" placeholder="Email" />
-              <input
-                type="pwd"
-                name="password"
-                id="password"
-                placeholder="Password"
-              />
-              <div class="checkbox">
-                <input type="checkbox" name="box" id="box" />
-                <label for="box">Remember my log in details</label>
-              </div>
-              <button class="login-btn" type="button" onclick="validateLogin()">
-                <a href="#">Login</a>
-              </button>
-              <div id="displayArea"></div>
-            </div>
-          </form>
-          <p class="misc">Forgot password? <a href="#">Click here</a></p>
-          ............................................
-          <p class="misc">Don't have an account? <a href="#">Sign up</a></p>
-        </div>
-        <div class="right-section">
-          <div class="right-image">
-            <img
-              class="misc-image"
-              src="./assets/imgs/shield.png"
-              alt="image"
-            />
-          </div>
-          <img class="logo2" src="./assets/imgs/logo.png" alt="logo" />
-          <button class="return-home">
-            <a href="#">Return to Home Page</a>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!-- THIS PSEUDO BOOKING PAGE IS TO TEST RUN THE JAVASCRIPT LOGIN BUTTON. PLEASE IGNORE! -->
-    <div class="booking-page hidden">
-      <h1>THIS IS THE BOOKING PAGE</h1>
-      <p>Just for testing sake. Please ignore. Thank you</p>
-    </div>
-
-    <!-- The landing page hero image and flight search starts here -->
-<div class="hero-section">
-  <div class="hero-image-text">
-    <img src="./assets/imgs/hero-bg.png" alt="hero image">
-    <h3>"Thinking about Travelling?</h3>
-    <h1>We've got you!</h1>
-    <p>Special offers to suit your plan</p>
-  </div>
-  <div class="flight-search">
-    <div class="flight-text">
-      <img src="./assets/imgs/airplane-green.png" alt="aeroplane">
-      <p>Flights</p>
-    </div>
-    <div class="route">
-      <div>
-        <p>From - To</p>
-        <p>Enugu - Lagos</p>
-        <img src="./assets/imgs/ion_swap-horizontal.png" alt="swap image">
-      </div>
-      <div class="trip">
-        <p>Trip</p>
-        <p>Return</p>
-        
-      </div>
-    </div>
-    <div class="flight-search">
-      <img src="./assets/imgs/search.png" alt="search icon">
-      <p>Search Flights</p>
-    </div>
-  </div>
-</div>
-    <script src="./js/app.js"></script>
-  </body>
+			<div class="login-section flex">
+				<div class="login-page flex flex-col j-center">
+					<h4>Login with</h4>
+					<div class="flex">
+						<button class="btn btn-static-primary">
+							<img
+								class="btn-icon"
+								src="./assets/imgs/facebook.png"
+								alt="facebook" />
+							<p>Facebook</p>
+						</button>
+						<button class="btn btn-outline-primary">
+							<img
+								class="btn-icon"
+								src="./assets/imgs/google.png"
+								alt="google" />
+							<p>Google</p>
+						</button>
+					</div>
+					<h6>We never share anything without your permission</h6>
+					<p>------------------- or ------------------</p>
+					<form
+						action="/submit"
+						method="post">
+						<div class="form-content flex flex-col j-center">
+							<input
+								type="email"
+								name="email"
+								id="email"
+								placeholder="Email" />
+							<input
+								type="pwd"
+								name="password"
+								id="password"
+								placeholder="Password" />
+							<div class="checkbox flex j-center">
+								<input
+									type="checkbox"
+									name="box"
+									id="box" />
+								<label for="box">Remember my log in details</label>
+							</div>
+							<div class="flex j-center">
+								<a
+									href="#"
+									class="btn btn-primary w-50">
+									Login
+								</a>
+							</div>
+						</div>
+					</form>
+					<p class="text-sm">Forgot password? <a href="#">Click here</a></p>
+					............................................
+					<p class="text-sm">Don't have an account? <a href="#">Sign up</a></p>
+				</div>
+				<div class="right-section flex flex-col">
+					<div class="right-image flex j-center">
+						<img
+							class="login-image"
+							src="./assets/imgs/shield.png"
+							alt="image" />
+					</div>
+					<div class="flex j-center">
+						<img
+							class="right-logo"
+							src="./assets/imgs/logo.png"
+							alt="logo" />
+					</div>
+					<div class="flex j-center">
+						<a
+							href="./"
+							class="btn btn-primary">
+							Return to Home Page
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- / login container -->
+		<script src="./js/app.js"></script>
+	</body>
 </html>
