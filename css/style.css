@@ -193,11 +193,20 @@ input[type="checkbox"] {
 
 a{
 text-decoration: none;
-color: #426ae4;
+color: #ffffff;
 }
 
 h6, h4{
 	color: #1d1b1b;
+}
+
+p[a]{
+	color: #426ae4;
+}
+
+/* javascript hidden page */
+.hidden{
+	display: none;
 }
 
 
