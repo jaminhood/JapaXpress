@@ -1,167 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0" />
-		<title>JapaXpress - Login</title>
-		<link
-			rel="stylesheet"
-			href="./css/style.css" />
-	</head>
-	<body>
-		<!-- header -->
-		<header class="header">
-			<div class="container flex">
-				<a
-					href="./"
-					class="header-logo">
-					<img
-						src="./assets/imgs/logo.png"
-						alt="" />
-				</a>
-				<div class="flex">
-					<a
-						href="./sign-up.html"
-						class="btn btn-primary">
-						Sign Up
-					</a>
-				</div>
-			</div>
-		</header>
-		<!-- / header -->
-		<!-- login container -->
-		<div class="container login-container flex flex-col">
-			<h2>Login to your account to enjoy every of your travel adventure.</h2>
-			<!-- login starts here -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JapaXpress - Login</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container flex">
+        <a href="./" class="header-logo">
+          <img src="./assets/imgs/logo.png" alt="" />
+        </a>
+        <div class="flex">
+          <a href="./sign-up.html" class="btn btn-primary"> Sign Up </a>
+        </div>
+      </div>
+    </header>
+    <!-- / header -->
+    <!-- login container -->
+    <div class="container login-container flex flex-col">
+      <h2>Login to your account to enjoy every of your travel adventure.</h2>
+      <!-- login starts here -->
 
-
-			<div class="login-section flex">
-				<div class="login-page flex flex-col j-center">
-					<h4>Login with</h4>
-					<div class="flex">
-						<button class="btn btn-static-primary">
-							<img
-								class="btn-icon"
-								src="./assets/imgs/facebook.png"
-								alt="facebook" />
-							<p>Facebook</p>
-						</button>
-						<button class="btn btn-outline-primary">
-							<img
-								class="btn-icon"
-								src="./assets/imgs/google.png"
-								alt="google" />
-							<p>Google</p>
-						</button>
-					</div>
-					<h6>We never share anything without your permission</h6>
-					<p>------------------- or ------------------</p>
-					<form
-						action="/submit"
-						method="post">
-						<div class="form-content flex flex-col j-center">
-							<input
-								type="email"
-								name="email"
-								id="email"
-								placeholder="Email" />
-							<input
-								type="pwd"
-								name="password"
-								id="password"
-								placeholder="Password" />
-							<div class="checkbox flex j-center">
-								<input
-									type="checkbox"
-									name="box"
-									id="box" />
-								<label for="box">Remember my log in details</label>
-							</div>
-							<div class="flex j-center">
-								<a
-									href="#"
-									class="btn btn-primary w-50">
-									Login
-								</a>
-							</div>
-						</div>
-					</form>
-					<p class="text-sm">Forgot password? <a href="#">Click here</a></p>
-					............................................
-					<p class="text-sm">Don't have an account? <a href="#">Sign up</a></p>
-				</div>
-				<div class="right-section flex flex-col">
-					<div class="right-image flex j-center">
-						<img
-							class="login-image"
-							src="./assets/imgs/shield.png"
-							alt="image" />
-					</div>
-					<div class="flex j-center">
-						<img
-							class="right-logo"
-							src="./assets/imgs/logo.png"
-							alt="logo" />
-					</div>
-					<div class="flex j-center">
-						<a
-							href="./"
-							class="btn btn-primary">
-							Return to Home Page
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- / login container -->
+      <div class="login-section flex">
+        <div class="login-page flex flex-col j-center">
+          <h4>Login with</h4>
+          <div class="flex">
+            <button class="btn btn-static-primary">
+              <img
+                class="btn-icon"
+                src="./assets/imgs/facebook.png"
+                alt="facebook"
+              />
+              <p>Facebook</p>
+            </button>
+            <button class="btn btn-outline-primary">
+              <img
+                class="btn-icon"
+                src="./assets/imgs/google.png"
+                alt="google"
+              />
+              <p>Google</p>
+            </button>
+          </div>
+          <h6>We never share anything without your permission</h6>
+          <p>---------------- or ---------------</p>
+          <form action="/submit" method="post">
+            <div class="form-content flex flex-col j-center">
+              <input type="email" name="email" id="email" placeholder="Email" />
+              <input
+                type="pwd"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+              <div class="checkbox flex j-center">
+                <input type="checkbox" name="box" id="box" />
+                <label for="box">Remember my log in details</label>
+              </div>
+              <div class="flex j-center">
+                <a href="#" class="btn btn-primary w-50"> Login </a>
+              </div>
+            </div>
+          </form>
+          <p class="text-sm">Forgot password? <a href="#">Click here</a></p>
+          ............................................
+          <p class="text-sm">Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+        <div class="right-section flex flex-col">
+          <div class="right-image flex j-center">
+            <img
+              class="login-image"
+              src="./assets/imgs/shield.png"
+              alt="image"
+            />
+          </div>
+          <div class="flex j-center">
+            <img class="right-logo" src="./assets/imgs/logo.png" alt="logo" />
+          </div>
+          <div class="flex j-center">
+            <a href="./" class="btn btn-primary"> Return to Home Page </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / login container -->
 
     <!-- landing page hero section starts here -->
     <div class="hero-container">
       <div class="hero-section">
-        <img class="hero-image" src="./assets/imgs/hero-bg.png" alt="hero image">
+        <img
+          class="hero-image"
+          src="./assets/imgs/hero-bg.png"
+          alt="hero image"
+        />
         <div class="hero-text">
           <h3 class="text-1">"Thinking about Travelling?"</h3>
           <h1 class="text-2">We've GOT YOU!</h1>
           <p class="text-3">Special offers to suit your plan</p>
         </div>
       </div>
+      <div class="flight-container"></div>
       <div class="flight-search-section">
         <div class="flight-search-top">
-          <img src="./assets/imgs/airplane-green.png" alt="aeroplane image">
-          <p>Flight</p>
+          <img
+            class="image-search"
+            src="./assets/imgs/airplane-green.png"
+            alt="aeroplane image"
+          />
+          <p class="flight-text">Flight</p>
         </div>
 
-        <div class="flight-description">
-          <div class="card-1">
-            <label for="text">From - To</label>
-            <input type="text" name="text" id="text" placeholder="Enugu - Lagos">
-            <img src="./assets/imgs/ion_swap-horizontal.png" alt="swap arrow image">
+       <div class="flight-details">
+         <div class="card-1">
+          <div class="position">
+          <label class="f-text" for="text">From - To</label>
+          <div class="funny">
+            <input
+              class="flight-input"
+              type="text"
+              name="text"
+              id="text"
+              placeholder="Enugu - Lagos"
+            />
+            <img
+              class="image-search"
+              src="./assets/imgs/ion_swap-horizontal.png"
+              alt="swap arrow image"
+            />
           </div>
-
-          <div class="card-2">
-            <label for="text">Trip</label>
-            <input type="text" name="text" id="text" placeholder="Return">
-            <img src="./assets/imgs/chevron_down.png" alt="donw arrow image">
-          </div>
-
-          <div class="card-3">
-            <label for="text">Depart - Return</label>
-            <input type="text" name="text" id="text" placeholder="07 Dec, 2023 - 13 Dec, 2023">
-          </div>
-
-          <div class="card-4">
-            <label for="text">Passenger - Class</label>
-            <input type="text" name="text" id="text" placeholder="1 Passenger - Economy">
           </div>
         </div>
-        <div class="flight-bottom">
-          <img src="./assets/imgs/search.png" alt="search icon">
-          <p>Search Flights</p>
+
+        <div class="card-2">
+          <div class="position">
+          <label class="f-text" for="text">Trip</label>
+          <div class="funny">
+            <input
+              class="flight-input"
+              type="text"
+              name="text"
+              id="text"
+              placeholder="Return"
+            />
+            <img
+              class="image-search"
+              src="./assets/imgs/chevron_down.png"
+              alt="down arrow image"
+            />
+          </div>
+          </div>
+        </div>
+
+        <div class="card-3">
+          <div class="position">
+          <label class="f-text" for="text">Depart - Return</label>
+          <div class="funny">
+            <input
+              class="flight-input"
+              type="text"
+              name="text"
+              id="text"
+              placeholder="23 Dec, 2023 - 29 Dec, 2023"
+            />
+          </div>
+          </div>
+        </div>
+
+        <div class="card-4">
+          <div class="position">
+          <label class="f-text" for="text">Passenger - Class</label>
+          <div class="funny">
+            <input
+              class="flight-input"
+              type="text"
+              name="text"
+              id="text"
+              placeholder="1 Passenger, - Economy"
+            />
+          </div>
+          </div>
+        </div>
+      </div>
+       <div class="search-bottom">
+          <img class="image-search" src="./assets/imgs/search.png" alt="search icon">
+          <p class="bottom-tex">Search Flights</p>
         </div>
       </div>
     </div>
-		<script src="./js/app.js"></script>
-	</body>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
