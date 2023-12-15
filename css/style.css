@@ -555,3 +555,31 @@ input[type="checkbox"] {
 
 
 
+/* MEDIA QUERY  */
+/* login page */
+@media screen and (max-width: 390px){
+	.right-section{
+		display: none;
+	}
+
+	.login-page{
+		background-color: #E0E0E0;
+	}
+
+	.container h2{
+		text-align: center;
+		line-height: 1.5;
+		/* font-weight: var(--fw-heading); */
+		font-size: 1.4rem;
+		color: #4F4F4F;
+		
+	}
+	#text-1{
+		color: #4F4F4F;
+		font-weight: var(--fw-heading);
+	}
+	
+}
+
+
+
