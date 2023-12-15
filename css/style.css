@@ -123,6 +123,11 @@ input[type="checkbox"] {
 
 .text-sm {
 	font-size: 0.8rem;
+
+}
+
+.text-sm a{
+	color: var(--clr-primary-light);
 }
 
 .right-logo {
@@ -212,7 +217,7 @@ input[type="checkbox"] {
 }
 
 .login-page {
-	background-color: var(--clr-grey-3);
+	background-color: #fafbfc;
 	align-items: center;
 	text-align: center;
 	padding: 20px;
@@ -329,7 +334,7 @@ input[type="checkbox"] {
 	text-transform: capitalize;
 }
 
-.deal-box-wrap > .flex {
+.deal-box-wrap>.flex {
 	gap: 2rem;
 }
 
@@ -381,3 +386,29 @@ input[type="checkbox"] {
 .deal-box-wrap-price {
 	font-size: 2.5rem;
 }
+
+/* hero section */
+.hero-container .hero-section{
+	position: relative;
+}
+
+.hero-image{
+	position: inherit;
+}
+
+.hero-text{
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+	margin-bottom: 2px;
+}
+
+.flight-search-section{
+	border: 1px solid red;
+	width: 100%;
+}
+
