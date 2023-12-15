@@ -123,6 +123,11 @@ input[type="checkbox"] {
 
 .text-sm {
 	font-size: 0.8rem;
+
+}
+
+.text-sm a{
+	color: var(--clr-primary-light);
 }
 
 .right-logo {
@@ -212,7 +217,7 @@ input[type="checkbox"] {
 }
 
 .login-page {
-	background-color: var(--clr-grey-3);
+	background-color: #fafbfc;
 	align-items: center;
 	text-align: center;
 	padding: 20px;
@@ -329,7 +334,7 @@ input[type="checkbox"] {
 	text-transform: capitalize;
 }
 
-.deal-box-wrap > .flex {
+.deal-box-wrap>.flex {
 	gap: 2rem;
 }
 
@@ -381,3 +386,200 @@ input[type="checkbox"] {
 .deal-box-wrap-price {
 	font-size: 2.5rem;
 }
+
+/* hero section */
+.hero-container .hero-section{
+	position: relative;
+}
+
+.hero-image{
+	position: inherit;
+}
+
+.hero-text{
+	position: absolute;
+	top: 35%;
+	left: 44%;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	font-size: 1.3rem;
+	line-height: 0 !important;
+	margin-bottom: 2px;
+}
+
+.text-1{
+	font-family: var(--ff-main);
+	line-height: 54px;
+	font-weight: var(--fw-body);
+}
+.text-2{
+ font-size: 3rem;
+ line-height: 62px;
+ font-weight: var(--fw-heading);
+}
+.text-3{
+	font-size: 1rem;
+	line-height: 28px;
+	font-weight: var(--fw-body);
+}
+
+
+
+
+.flight-search-section{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fafbfc;
+	box-shadow: 0 0 .625rem;
+	align-items: center;
+	border-radius: .75rem;
+	width: 60%;
+	margin: 1rem 5rem;
+	padding: 2rem;
+}
+
+.image-search{
+	width: .8rem;
+}
+
+.flight-search-top{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: .2rem;
+	border: 2px solid blue;
+	width: 5rem;
+	margin-bottom: 1rem;
+	padding:  .8rem;
+	position: static;
+	border-top: none;
+	border-left: none;
+	
+	position: relative;
+}
+
+/* .flight-search-top::after{
+	position: absolute;
+	content: -10px;                    TRIED TO ADD THE BORDER-RIGHT
+	bottom: -10px;
+	left: 0;
+	width: 100%;
+	border-bottom: 2px solid blue;
+} */
+
+.flight-description{
+	align-items: center;
+}
+
+.flight-input{
+	padding: 1rem;
+	border: none;
+}
+
+
+.funny{
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: .5rem;
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+	border: 1px solid gray;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	width: auto;
+
+}
+
+.flight-text{
+	font-size: .8rem;
+	font-weight: var(--fw-heading);
+	color: #000000;
+}
+
+.position{
+	position: relative;
+	
+}
+
+
+.f-text{
+	position: absolute;
+	top: -.625rem;
+	left: -.75rem;
+	font-size: .8rem;
+	background: white;
+	margin-left: 1rem;
+}
+
+.flight-details{
+	display: flex;
+	gap: .8rem;
+}
+
+.search-bottom{
+	background-color: #426ae4;
+	color: #fafbfc;
+	width: fit-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: .19rem;
+	padding: .2rem .5rem;
+	border-radius: .18rem;
+	margin-top: 1rem;
+	float: top right;
+	margin-left: auto;
+	
+}
+
+.bottom-tex{
+	font-size: .8rem;
+	font-weight: var(--fw-heading);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	transition: 0.5s ease-in-out;
+}
+
+.bottom-text:hover {
+	background: var(--clr-primary-light);
+	color: var(--clr-light);
+}
+
+
+
+/* MEDIA QUERY  */
+/* login page */
+@media screen and (max-width: 390px){
+	.right-section{
+		display: none;
+	}
+
+	.login-page{
+		background-color: #E0E0E0;
+	}
+
+	.container h2{
+		text-align: center;
+		line-height: 1.5;
+		/* font-weight: var(--fw-heading); */
+		font-size: 1.4rem;
+		color: #4F4F4F;
+		
+	}
+	#text-1{
+		color: #4F4F4F;
+		font-weight: var(--fw-heading);
+	}
+	
+}
+
+
+
