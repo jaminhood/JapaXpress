@@ -387,6 +387,7 @@ input[type="checkbox"] {
 	font-size: 2.5rem;
 }
 
+/* LANDING PAGE STARTS HERE! */
 /* hero section */
 .hero-container .hero-section{
 	position: relative;
@@ -422,9 +423,6 @@ input[type="checkbox"] {
 	line-height: 28px;
 	font-weight: var(--fw-body);
 }
-
-
-
 
 .flight-search-section{
 	position: relative;
@@ -550,6 +548,205 @@ input[type="checkbox"] {
 	background: var(--clr-primary-light);
 	color: var(--clr-light);
 }
+
+/* plan your trip section starts here */
+* {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.plan-image1{
+	position: relative;
+}
+
+.plan-text1{
+	margin-top: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 10px;
+	position: absolute;
+	top: 54%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	color: #fafbfc;
+	line-height: .05rem;
+}
+
+.plan-image2 {
+	position: relative;
+}
+
+.plan-text2{
+	margin-top: 2px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		gap: 10px;
+		position: absolute;
+		top: 54%;
+		left: 70%;
+		transform: translate(-50%, -50%);
+		color: #fafbfc;
+		line-height: .05rem;
+}
+
+.plan-image3 {
+	position: relative;
+}
+
+.plan-text3{
+	margin-top: 2px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		gap: 10px;
+		position: absolute;
+		top: 74%;
+		left: 30%;
+		transform: translate(-50%, -50%);
+		color: #fafbfc;
+		line-height: .05rem;
+}
+
+.plan-image4 {
+	position: relative;
+}
+
+.plan-text4 {
+	margin-top: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 10px;
+	position: absolute;
+	top: 74%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	color: #fafbfc;
+	line-height: .05rem;
+}
+
+
+.inner-nav {
+	margin-left: 275px;
+	padding-bottom: 20px;
+	margin-top: 30px;
+}
+
+h1 {
+	font-size: x-large;
+	font-weight: 700;
+	word-spacing: 2px;
+}
+
+h2 {
+	padding-bottom: 5px;
+	color: #ffffff;
+}
+
+h3 {
+	font-size: x-large;
+	font-weight: 700;
+	word-spacing: 2px;
+	padding-bottom: 5px;
+}
+
+h4 {
+	padding-top: 20px;
+}
+
+#hire {
+	padding-top: 5px;
+	color: rgba(0, 0, 0, 0.404);
+}
+
+.search {
+	color: #ffffffa6;
+	font-size: .7rem;
+}
+
+p {
+	font-size: small;
+	font-weight: lighter;
+}
+
+
+
+button {
+	background-color: rgba(0, 119, 255, 0.89);
+	color: #ffffff;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	padding: 5px;
+	width: 100px;
+	font-size: x-small;
+	margin-top: 8px;
+}
+
+section {
+	padding-top: 70px;
+}
+
+.inner-section {
+	padding-left: 270px;
+}
+
+.testimonial {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	padding: 40px;
+}
+
+
+
+.inner-testimoniaal {
+	width: 250px;
+	padding: 0 20px;
+	background-color: #ffffffa6;
+	margin-left: 10px;
+	height: 380px;
+	box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+	outline: black;
+}
+
+.inner-testimonial-2 {
+	font-size: x-small;
+	color: rgba(0, 0, 0, 0.432);
+	padding-top: 15px;
+}
+
+span {
+	color: rgba(0, 26, 255, 0.89);
+	font-weight: 700;
+}
+
+.names {
+	padding-top: 20px;
+	padding-bottom: 4px;
+	font-size: x-small;
+	font-weight: bolder;
+}
+
+.location {
+	color: rgba(0, 0, 0, 0.432);
+}
+
+
 
 
 

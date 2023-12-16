@@ -1,44 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0" />
-		<title>JapaXpress - Homepage</title>
-		<link
-			rel="stylesheet"
-			href="./css/style.css" />
-	</head>
-	<body>
-		<!-- header -->
-		<header class="header">
-			<div class="container flex">
-				<a
-					href="./"
-					class="header-logo">
-					<img
-						src="./assets/imgs/logo.png"
-						alt="" />
-				</a>
-				<div class="flex">
-					<a
-						href="./login.html"
-						class="btn btn-outline-primary">
-						Login
-					</a>
-					<a
-						href="./sign-up.html"
-						class="btn btn-primary">
-						Sign Up
-					</a>
-				</div>
-			</div>
-		</header>
-		<!-- / header -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JapaXpress - Homepage</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container flex">
+        <a href="./" class="header-logo">
+          <img src="./assets/imgs/logo.png" alt="" />
+        </a>
+        <div class="flex">
+          <a href="./login.html" class="btn btn-outline-primary"> Login </a>
+          <a href="./sign-up.html" class="btn btn-primary"> Sign Up </a>
+        </div>
+      </div>
+    </header>
+    <!-- / header -->
 
-		<!-- hero section starts here -->
-		    <div class="hero-container">
+    <!-- hero section starts here -->
+    <div class="hero-container">
       <div class="hero-section">
         <img
           class="hero-image"
@@ -62,83 +46,238 @@
           <p class="flight-text">Flight</p>
         </div>
 
-       <div class="flight-details">
-         <div class="card-1">
-          <div class="position">
-          <label class="f-text" for="text">From - To</label>
-          <div class="funny">
-            <input
-              class="flight-input"
-              type="text"
-              name="text"
-              id="text"
-              placeholder="Enugu - Lagos"
-            />
-            <img
-              class="image-search"
-              src="./assets/imgs/ion_swap-horizontal.png"
-              alt="swap arrow image"
-            />
+        <div class="flight-details">
+          <div class="card-1">
+            <div class="position">
+              <label class="f-text" for="text">From - To</label>
+              <div class="funny">
+                <input
+                  class="flight-input"
+                  type="text"
+                  name="text"
+                  id="text"
+                  placeholder="Enugu - Lagos"
+                />
+                <img
+                  class="image-search"
+                  src="./assets/imgs/ion_swap-horizontal.png"
+                  alt="swap arrow image"
+                />
+              </div>
+            </div>
           </div>
-          </div>
-        </div>
 
-        <div class="card-2">
-          <div class="position">
-          <label class="f-text" for="text">Trip</label>
-          <div class="funny">
-            <input
-              class="flight-input"
-              type="text"
-              name="text"
-              id="text"
-              placeholder="Return"
-            />
-            <img
-              class="image-search"
-              src="./assets/imgs/chevron_down.png"
-              alt="down arrow image"
-            />
+          <div class="card-2">
+            <div class="position">
+              <label class="f-text" for="text">Trip</label>
+              <div class="funny">
+                <input
+                  class="flight-input"
+                  type="text"
+                  name="text"
+                  id="text"
+                  placeholder="Return"
+                />
+                <img
+                  class="image-search"
+                  src="./assets/imgs/chevron_down.png"
+                  alt="down arrow image"
+                />
+              </div>
+            </div>
           </div>
-          </div>
-        </div>
 
-        <div class="card-3">
-          <div class="position">
-          <label class="f-text" for="text">Depart - Return</label>
-          <div class="funny">
-            <input
-              class="flight-input"
-              type="text"
-              name="text"
-              id="text"
-              placeholder="23 Dec, 2023 - 29 Dec, 2023"
-            />
+          <div class="card-3">
+            <div class="position">
+              <label class="f-text" for="text">Depart - Return</label>
+              <div class="funny">
+                <input
+                  class="flight-input"
+                  type="text"
+                  name="text"
+                  id="text"
+                  placeholder="23 Dec, 2023 - 29 Dec, 2023"
+                />
+              </div>
+            </div>
           </div>
-          </div>
-        </div>
 
-        <div class="card-4">
-          <div class="position">
-          <label class="f-text" for="text">Passenger - Class</label>
-          <div class="funny">
-            <input
-              class="flight-input"
-              type="text"
-              name="text"
-              id="text"
-              placeholder="1 Passenger, - Economy"
-            />
-          </div>
+          <div class="card-4">
+            <div class="position">
+              <label class="f-text" for="text">Passenger - Class</label>
+              <div class="funny">
+                <input
+                  class="flight-input"
+                  type="text"
+                  name="text"
+                  id="text"
+                  placeholder="1 Passenger, - Economy"
+                />
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-       <div class="search-bottom">
-          <img class="image-search" src="./assets/imgs/search.png" alt="search icon">
+        <div class="search-bottom">
+          <img
+            class="image-search"
+            src="./assets/imgs/search.png"
+            alt="search icon"
+          />
           <p class="bottom-tex">Search Flights</p>
         </div>
       </div>
     </div>
-		<script src="./js/app.js"></script>
-	</body>
+
+    <!-- plan your trip section -->
+    <div class="container">
+      <div class="inner-nav">
+        <h1>Plan your perfect trip</h1>
+        <p id="hire">
+          Search Flights and Places Hire to our most popular destinations
+        </p>
+      </div>
+      <div class="container-sub1 flex j-center">
+        <div class="trip" id="trip-1">
+			<img class="plan-image1" src="./assets/imgs/trip-1.png" alt="">
+			<div class="plan-text1">
+			<h2>Business Trips</h2>
+          <p class="search">
+            Search Flights and Places Hire to our most popular destinations
+          </p>
+          <button>
+            <img
+              src="./assets/imgs/search.png"
+              width="12px"
+              style="margin-right: 5px"
+            />
+            Serach Flights
+		  </button>
+			</div>
+        </div>
+
+
+        <div class="trip" id="trip-2">
+			<img class="plan-image2" src="./assets/imgs/trip-2.png" alt="">
+			<div class="plan-text2">
+			<h2>Family Vacations</h2>
+          <p class="search">
+            Search Hotels and Places Hire to our most popular destinations
+          </p>
+          <button>
+            <img
+              src="./assets/imgs/search.png"
+              width="12px"
+              style="margin-right: 5px"
+            />
+            Serach Flights
+          </button>
+			</div>
+        </div>
+	  </div>
+
+	  	<div class="container-sub1 flex j-center">
+        <div class="trip" id="trip-3">
+			<img class="plan-image3" src="./assets/imgs/trip-3.png" alt="">
+			<div class="plan-text3">
+			<h2>Private Trips</h2>
+          <p class="search">
+            Search Flights and Places Hire to our most popular destinations
+          </p>
+          <button>
+            <img
+              src="./assets/imgs/search.png"
+              width="12px"
+              style="margin-right: 5px"
+            />
+            Serach Flights
+          </button>
+			</div>
+        </div>
+
+
+        <div class="trip" id="trip-4">
+			<img class="plan-image4" src="./assets/imgs/trip-4.png" alt="">
+			<div class="plan-text4">
+			<h2>International Trips</h2>
+          <p class="search">
+            Search Hotels and Places Hire to our most popular destinations
+          </p>
+          <button>
+            <img
+              src="./assets/imgs/search.png"
+              width="12px"
+              style="margin-right: 5px"
+            />
+            Serach Flights
+          </button>
+			</div>
+        </div>
+		</div>
+
+
+      </div>
+    </div>
+
+    <section>
+      <div class="inner-section">
+        <h3>Reviews</h3>
+        <p>What people says about <span>JapaXpress</span></p>
+      </div>
+      <div class="testimonial">
+        <div class="inner-testimoniaal">
+          <h4>"Areal sense of community, nurtured"</h4>
+          <p class="inner-testimonial-2">
+            Really apprecciate the help and support from the staff durring these
+            tough times. Shoutout to Katie for helping me alwaye, even when I
+            was out of the country and always avaliable..
+          </p>
+          <div class="names">Maria</div>
+          <p class="location">Abuja</p>
+          <img class="image1"
+            src="./assets/imgs/review-1.png"
+            width="210px"
+            style="padding-top: 25px"
+            alt=""
+          />
+        </div>
+
+
+        <div class="inner-testimoniaal">
+          <h4>"The facilities are superb Clean, slick,bright</h4>
+          <p class="inner-testimonial-2">
+            Really apprecciate the help and support from the staff durring these
+            tough times. Shoutout to Katie for helping me alwaye, even when I
+            was out of the country and always avaliable..
+          </p>
+          <div class="names">Ebube</div>
+          <p class="location">University of Nigeria</p>
+          <img class="image2"
+            src="assets/imgs/review-2.png"
+            width="210px"
+            style="padding-top: 25px"
+            alt=""
+          />
+        </div>
+
+
+        <div class="inner-testimoniaal">
+          <h4>"Areal seense of community, nurtured"</h4>
+          <p class="inner-testimonial-2">
+            Really apprecciate the help and support from the staff durring these
+            tough times. Shoutout to Katie for helping me alwaye, even when I
+            was out of the country and always avaliable..
+          </p>
+          <div class="names">Eliot</div>
+          <p class="location">Institute of management</p>
+          <img class="image3"
+            src="./assets/imgs/review-3.png"
+            width="210px"
+            style="padding-top: 25px"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
