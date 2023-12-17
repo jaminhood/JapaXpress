@@ -68,6 +68,9 @@ body {
 	overflow-x: hidden;
 	font-size: 1rem;
 }
+.color-container{
+	color: #000000;
+}
 
 form {
 	width: 100%;
@@ -827,7 +830,210 @@ span {
 		color: #4F4F4F;
 		font-weight: var(--fw-heading);
 	}
+
+	/* FOR LANDING PAGE */
+	.plan-container{
+	margin-top: 20rem;
+	}
+
+	.hero-image{
+		height: 300px;
+	}
+
+	.flex, .btn{
+		padding: 2px 3px;
+	}
+
+	.hero-section{
+		position: relative;
+	}
+	.hero-text{
+		position: absolute;
+		top: 35%;
+		left: 35%;
+	}
+
+	.flight-search-section{
+		position: absolute;
+		top: 11%;
+		left: 29%;
+		margin-bottom: 30px;
+		width: 17.5rem;
+	}
+
+	.container-sub1{
+		display: flex;
+		flex-direction: column;
+		margin-top: 1rem;
+	}
+
+	.trip{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.trip h2{
+		color: #E0E0E0;
+		font-weight: var(--fw-heading);
+	}
+
+	.trip p{
+		text-align: center;
+	}
+
+	.search{
+		text-align: center;
+		line-height: 1.2rem;
+		
+	}
+
+	.plan-image1{
+		position: relative;
+	}
+
+	.plan-text1{
+		position: absolute;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.plan-image2 {
+		position: relative;
+	}
+		
+	.plan-text2 {
+		position: absolute;
+		top: 33%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.plan-image3 {
+		position: relative;
+	}
+		
+	.plan-text3 {
+		position: absolute;
+		top: 42%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.plan-image4 {
+		position: relative;
+	}
+		
+	.plan-text4 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	section{
+		width: 400px;
+	}
+
+	.inner-section{
+		width: 300px;
+		padding-left: 5px;
+		margin-left: 20px;	
+	}
+
+	.inner-section p{
+		color: #000000;
+		font-size: 1rem;
+	}
+
+	.inner-section h3{
+		color: #000000;
+	}
+
+	.testimonial{
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		width: 100%;
+	}
+
+	.inner-testimoniaal{
+		border-radius: 10px;
+	}
+
+	.landing-container{
+		width: 380px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin: 3px;
+
+	}
+
+	.landing-card{
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: start;
+		width: 100%;
+	}
+
+	#logo-image{
+		width: 100px;
+	}
+
+	.left h4
+	{
+		font-size: 1rem;
+	}
+
+	.footer{
+		display: flex;
+		height: 400px;
+	}
+
+	.landing-footer{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 20px 0;
+		width: 100%;
+	}
+
+	.right-footer{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 0;
+	}
+
+	.flight-details{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.text-1{
+		font-size: .9rem;
+		line-height: 1.4rem;
+	}
+
+	.text-2{
+		font-size: 1.6rem;
+		line-height: 1.4rem;
+	}
+
+	.text-3{
+		font-size: .6rem;
+	}
 	
+	.hero-container {
+		max-width: 390px;
+		width: fit-content;
+	}
 }
 
 
