@@ -447,25 +447,27 @@ input[type="checkbox"] {
 	justify-content: center;
 	align-items: center;
 	gap: .2rem;
-	border: 2px solid blue;
+	border-bottom:none;
 	width: 5rem;
 	margin-bottom: 1rem;
 	padding:  .8rem;
 	position: static;
 	border-top: none;
 	border-left: none;
-	
+	border-right: 2px solid rgba(128, 128, 128, 0.385);
 	position: relative;
+	margin-bottom: 1.8rem;
 }
 
-/* .flight-search-top::after{
+.flight-search-top::after{
 	position: absolute;
-	content: -10px;                    TRIED TO ADD THE BORDER-RIGHT
-	bottom: -10px;
-	left: 0;
-	width: 100%;
+	content: "";                    
+	bottom: -6px;
+	left: -6;
+	width: 80%;
 	border-bottom: 2px solid blue;
-} */
+}
+
 
 .flight-description{
 	align-items: center;
@@ -570,7 +572,7 @@ input[type="checkbox"] {
 	text-align: center;
 	gap: 10px;
 	position: absolute;
-	top: 54%;
+	top: 42%;
 	left: 30%;
 	transform: translate(-50%, -50%);
 	color: #fafbfc;
@@ -590,7 +592,7 @@ input[type="checkbox"] {
 		text-align: center;
 		gap: 10px;
 		position: absolute;
-		top: 54%;
+		top: 42%;
 		left: 70%;
 		transform: translate(-50%, -50%);
 		color: #fafbfc;
@@ -610,7 +612,7 @@ input[type="checkbox"] {
 		text-align: center;
 		gap: 10px;
 		position: absolute;
-		top: 74%;
+		top: 58%;
 		left: 30%;
 		transform: translate(-50%, -50%);
 		color: #fafbfc;
@@ -630,7 +632,7 @@ input[type="checkbox"] {
 	text-align: center;
 	gap: 10px;
 	position: absolute;
-	top: 74%;
+	top: 58%;
 	left: 70%;
 	transform: translate(-50%, -50%);
 	color: #fafbfc;
@@ -639,9 +641,12 @@ input[type="checkbox"] {
 
 
 .inner-nav {
-	margin-left: 275px;
 	padding-bottom: 20px;
 	margin-top: 30px;
+}
+
+.inner-nav-text{
+	color: #000000;
 }
 
 h1 {
@@ -696,7 +701,7 @@ button {
 }
 
 section {
-	padding-top: 70px;
+	padding-top: 3rem;
 }
 
 .inner-section {
@@ -746,6 +751,55 @@ span {
 	color: rgba(0, 0, 0, 0.432);
 }
 
+/* section named "landing-card" */
+
+
+.landing-card{
+	background-color: #E0E8FF;
+	width: 50%;
+	padding: 3rem 1.8rem;
+	border-radius: 10px;
+	gap: 10px;
+	margin-top: 3rem;
+}
+
+.card-search{
+	background-color: #426ae4;
+	width: fit-content;
+	color: #ffffff;
+	padding: .2rem .4rem;
+	gap: 2px;
+	margin-top: 15px;
+	border-radius: 2px;
+}
+
+.left h4{
+	color: #000000;
+	font-size: 1.3rem;
+	line-height: 1.6rem;	
+}
+
+/* footer here */
+.landing-footer{
+	background-color: #E0E8FF;
+	padding: 8rem;
+	margin-top: 3rem;
+}
+
+.a-account, .a-about{
+	color: #000000;
+	font-size: 1rem;
+}
+
+.right-footer{
+	gap: 10rem;
+	margin-right: 10rem;
+}
+
+.account li, .about li{
+	font-size: .8rem;
+	padding: 5px 0;
+}
 
 
 
