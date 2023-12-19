@@ -69,6 +69,10 @@ body {
 	font-size: 1rem;
 }
 
+.color-container {
+	color: #000000;
+}
+
 form {
 	width: 100%;
 }
@@ -126,7 +130,7 @@ input[type="checkbox"] {
 
 }
 
-.text-sm a{
+.text-sm a {
 	color: var(--clr-primary-light);
 }
 
@@ -389,15 +393,15 @@ input[type="checkbox"] {
 
 /* LANDING PAGE STARTS HERE! */
 /* hero section */
-.hero-container .hero-section{
+.hero-container .hero-section {
 	position: relative;
 }
 
-.hero-image{
+.hero-image {
 	position: inherit;
 }
 
-.hero-text{
+.hero-text {
 	position: absolute;
 	top: 35%;
 	left: 44%;
@@ -408,23 +412,25 @@ input[type="checkbox"] {
 	margin-bottom: 2px;
 }
 
-.text-1{
+.text-1 {
 	font-family: var(--ff-main);
 	line-height: 54px;
 	font-weight: var(--fw-body);
 }
-.text-2{
- font-size: 3rem;
- line-height: 62px;
- font-weight: var(--fw-heading);
+
+.text-2 {
+	font-size: 3rem;
+	line-height: 62px;
+	font-weight: var(--fw-heading);
 }
-.text-3{
+
+.text-3 {
 	font-size: 1rem;
 	line-height: 28px;
 	font-weight: var(--fw-body);
 }
 
-.flight-search-section{
+.flight-search-section {
 	position: relative;
 	top: 50%;
 	left: 50%;
@@ -438,19 +444,19 @@ input[type="checkbox"] {
 	padding: 2rem;
 }
 
-.image-search{
+.image-search {
 	width: .8rem;
 }
 
-.flight-search-top{
+.flight-search-top {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: .2rem;
-	border-bottom:none;
+	border-bottom: none;
 	width: 5rem;
 	margin-bottom: 1rem;
-	padding:  .8rem;
+	padding: .8rem;
 	position: static;
 	border-top: none;
 	border-left: none;
@@ -459,9 +465,9 @@ input[type="checkbox"] {
 	margin-bottom: 1.8rem;
 }
 
-.flight-search-top::after{
+.flight-search-top::after {
 	position: absolute;
-	content: "";                    
+	content: "";
 	bottom: -6px;
 	left: -6;
 	width: 80%;
@@ -469,23 +475,26 @@ input[type="checkbox"] {
 }
 
 
-.flight-description{
+.flight-description {
 	align-items: center;
 }
 
-.flight-input{
+.flight-input {
 	padding: 1rem;
 	border: none;
 }
 
-.funny{
+.funny {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding-right: .5rem;
 }
 
-.card-1, .card-2, .card-3, .card-4 {
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
 	border: 1px solid gray;
 	display: flex;
 	flex-direction: column;
@@ -494,19 +503,19 @@ input[type="checkbox"] {
 
 }
 
-.flight-text{
+.flight-text {
 	font-size: .8rem;
 	font-weight: var(--fw-heading);
 	color: #000000;
 }
 
-.position{
+.position {
 	position: relative;
-	
+
 }
 
 
-.f-text{
+.f-text {
 	position: absolute;
 	top: -.625rem;
 	left: -.75rem;
@@ -515,12 +524,12 @@ input[type="checkbox"] {
 	margin-left: 1rem;
 }
 
-.flight-details{
+.flight-details {
 	display: flex;
 	gap: .8rem;
 }
 
-.search-bottom{
+.search-bottom {
 	background-color: #426ae4;
 	color: #fafbfc;
 	width: fit-content;
@@ -533,10 +542,10 @@ input[type="checkbox"] {
 	margin-top: 1rem;
 	float: top right;
 	margin-left: auto;
-	
+
 }
 
-.bottom-tex{
+.bottom-tex {
 	font-size: .8rem;
 	font-weight: var(--fw-heading);
 	-webkit-user-select: none;
@@ -559,11 +568,11 @@ input[type="checkbox"] {
 	padding: 0;
 }
 
-.plan-image1{
+.plan-image1 {
 	position: relative;
 }
 
-.plan-text1{
+.plan-text1 {
 	margin-top: 2px;
 	display: flex;
 	flex-direction: column;
@@ -583,40 +592,40 @@ input[type="checkbox"] {
 	position: relative;
 }
 
-.plan-text2{
+.plan-text2 {
 	margin-top: 2px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		gap: 10px;
-		position: absolute;
-		top: 42%;
-		left: 70%;
-		transform: translate(-50%, -50%);
-		color: #fafbfc;
-		line-height: .05rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 10px;
+	position: absolute;
+	top: 42%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	color: #fafbfc;
+	line-height: .05rem;
 }
 
 .plan-image3 {
 	position: relative;
 }
 
-.plan-text3{
+.plan-text3 {
 	margin-top: 2px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		gap: 10px;
-		position: absolute;
-		top: 58%;
-		left: 30%;
-		transform: translate(-50%, -50%);
-		color: #fafbfc;
-		line-height: .05rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 10px;
+	position: absolute;
+	top: 58%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	color: #fafbfc;
+	line-height: .05rem;
 }
 
 .plan-image4 {
@@ -645,7 +654,7 @@ input[type="checkbox"] {
 	margin-top: 30px;
 }
 
-.inner-nav-text{
+.inner-nav-text {
 	color: #000000;
 }
 
@@ -754,7 +763,7 @@ span {
 /* section named "landing-card" */
 
 
-.landing-card{
+.landing-card {
 	background-color: #E0E8FF;
 	width: 50%;
 	padding: 3rem 1.8rem;
@@ -763,7 +772,7 @@ span {
 	margin-top: 3rem;
 }
 
-.card-search{
+.card-search {
 	background-color: #426ae4;
 	width: fit-content;
 	color: #ffffff;
@@ -773,62 +782,326 @@ span {
 	border-radius: 2px;
 }
 
-.left h4{
+.left h4 {
 	color: #000000;
 	font-size: 1.3rem;
-	line-height: 1.6rem;	
+	line-height: 1.6rem;
 }
 
 /* footer here */
-.landing-footer{
+.landing-footer {
 	background-color: #E0E8FF;
 	padding: 8rem;
 	margin-top: 3rem;
 }
 
-.a-account, .a-about{
+.a-account,
+.a-about {
 	color: #000000;
 	font-size: 1rem;
 }
 
-.right-footer{
+.right-footer {
 	gap: 10rem;
 	margin-right: 10rem;
 }
 
-.account li, .about li{
+.account li,
+.about li {
 	font-size: .8rem;
 	padding: 5px 0;
 }
+
+/* FORGOT PASSWORD STARTS HERE */
+.Forgot-container {
+	border-top: none;
+	height: 100%;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 5rem;
+	gap: 1rem;
+	margin: 10rem;
+	color: #000000;
+	box-shadow: 0 10px 10px rgb(0, 0, 0, 0.2);
+	border-radius: 2px;
+}
+
+.Forgot-container p {
+	font-size: .7rem;
+}
+
+label {
+	font-size: .6rem;
+}
+
+input {
+	border: 2px solid gray;
+}
+
+input::placeholder {
+	font-size: .6rem;
+	width: auto;
+}
+
+button {
+	padding: 7px;
+	border-radius: 3px;
+}
+
+.no-account a {
+	color: #426ae4;
+}
+
+.return-btn {
+	margin-top: 3rem;
+}
+
+
+
 
 
 
 
 /* MEDIA QUERY  */
 /* login page */
-@media screen and (max-width: 390px){
-	.right-section{
+@media screen and (max-width: 390px) {
+	.right-section {
 		display: none;
 	}
 
-	.login-page{
+	.login-page {
 		background-color: #E0E0E0;
 	}
 
-	.container h2{
+	.container h2 {
 		text-align: center;
 		line-height: 1.5;
 		/* font-weight: var(--fw-heading); */
 		font-size: 1.4rem;
 		color: #4F4F4F;
-		
+
 	}
-	#text-1{
+
+	#text-1 {
 		color: #4F4F4F;
 		font-weight: var(--fw-heading);
 	}
-	
+
+	/* FOR LANDING PAGE */
+	.plan-container {
+		margin-top: 20rem;
+	}
+
+	.hero-image {
+		height: 300px;
+	}
+
+	.flex,
+	.btn {
+		padding: 2px 3px;
+	}
+
+	.hero-section {
+		position: relative;
+	}
+
+	.hero-text {
+		position: absolute;
+		top: 35%;
+		left: 35%;
+	}
+
+	.flight-search-section {
+		position: absolute;
+		top: 11%;
+		left: 29%;
+		margin-bottom: 30px;
+		width: 17.5rem;
+	}
+
+	.container-sub1 {
+		display: flex;
+		flex-direction: column;
+		margin-top: 1rem;
+	}
+
+	.trip {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.trip h2 {
+		color: #E0E0E0;
+		font-weight: var(--fw-heading);
+	}
+
+	.trip p {
+		text-align: center;
+	}
+
+	.search {
+		text-align: center;
+		line-height: 1.2rem;
+
+	}
+
+	.plan-image1 {
+		position: relative;
+	}
+
+	.plan-text1 {
+		position: absolute;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.plan-image2 {
+		position: relative;
+	}
+
+	.plan-text2 {
+		position: absolute;
+		top: 33%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.plan-image3 {
+		position: relative;
+	}
+
+	.plan-text3 {
+		position: absolute;
+		top: 42%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.plan-image4 {
+		position: relative;
+	}
+
+	.plan-text4 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	section {
+		width: 400px;
+	}
+
+	.inner-section {
+		width: 300px;
+		padding-left: 5px;
+		margin-left: 20px;
+	}
+
+	.inner-section p {
+		color: #000000;
+		font-size: 1rem;
+	}
+
+	.inner-section h3 {
+		color: #000000;
+	}
+
+	.testimonial {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		width: 100%;
+	}
+
+	.inner-testimoniaal {
+		border-radius: 10px;
+	}
+
+	.landing-container {
+		width: 380px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin: 3px;
+
+	}
+
+	.landing-card {
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: start;
+		width: 100%;
+	}
+
+	#logo-image {
+		width: 100px;
+	}
+
+	.left h4 {
+		font-size: 1rem;
+	}
+
+	.footer {
+		display: flex;
+		height: 400px;
+	}
+
+	.landing-footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 20px 0;
+		width: 100%;
+	}
+
+	.right-footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 0;
+	}
+
+	.flight-details {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.text-1 {
+		font-size: .9rem;
+		line-height: 1.4rem;
+	}
+
+	.text-2 {
+		font-size: 1.6rem;
+		line-height: 1.4rem;
+	}
+
+	.text-3 {
+		font-size: .6rem;
+	}
+
+	.hero-container {
+		max-width: 390px;
+		width: fit-content;
+	}
+
+	/* FOR FORGOT PASSWORD */
+	.Forgot-container {
+		margin-left: 20px;
+		width: 350px;
+	}
+
+	.Forgot-container h3 {
+		line-height: 1.3;
+		font-size: 1.4rem;
+	}
 }
-
-
-
